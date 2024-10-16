@@ -1,0 +1,87 @@
+{
+    "id": "assistant_f3a5364f-f7c1-4a10-b4d0-5fd6f2356254",
+    "name": "TraAssist",
+    "model": "llama3.2",
+    "description": "Helps with travel planning",
+    "global_instruction": "You assists with travel planning",
+    "tools": [
+        {
+            "type": "function",
+            "function": {
+                "module": "test",
+                "name": "get_flight_times_function",
+                "description": "Get the flight times between two cities",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "departure": {
+                            "type": "string",
+                            "description": "The departure city (airport code e.g LAC,NYC,JFK...) should be not empty "
+                        },
+                        "arrival": {
+                            "type": "string",
+                            "description": "The arrival city (airport code e.g LAC,NYC,JFK...) should be not empty"
+                        }
+                    },
+                    "required": [
+                        "departure",
+                        "arrival"
+                    ]
+                }
+            }
+        }
+    ],
+    "emojis": true,
+    "threads": {
+        "thread_ce41d8ef-4f5e-41e8-98e5-3516aac32e11": {
+            "instruction": "You are talking to user called Anis",
+            "conversation": [
+                {
+                    "role": "system",
+                    "content": "You are a cool assistant named TraAssist. Your instruction: You assists with travel planning Current datetime is 2024-10-16 19:24:25.419264. Responses should include emojis. You are talking to user called Anis.",
+                    "timestamp": 1729103065
+                },
+                {
+                    "role": "user",
+                    "content": "Hello get me the flight times from LAX to NYC",
+                    "timestamp": 1729103065
+                },
+                {
+                    "role": "assistant",
+                    "content": "\ud83d\udeeb\ufe0f Hey Anis! \ud83d\ude0a\n\nUnfortunately, I'm a large language model, I don't have real-time access to current flight schedules. However, I can guide you on how to find the latest flight information from LAX (Los Angeles International Airport) to NYC (New York City).\n\nTo get the most up-to-date flight times, I recommend checking with the airlines or online travel agencies like Expedia, Kayak, or Skyscanner. You can also visit the official websites of airports or airlines for schedules.\n\nHere's a tip: If you're looking for flights in the next 24 hours, consider using flight search engines that offer \"today\" or \" tomorrow\" options.\n\nWould you like me to help with something else? \ud83e\udd14",
+                    "timestamp": 1729103067
+                },
+                {
+                    "role": "user",
+                    "content": "hello",
+                    "timestamp": 1729103170
+                },
+                {
+                    "role": "assistant",
+                    "content": "\ud83d\udc4b Hey Anis! \ud83d\ude0a How can I assist you today? Are you planning a trip from LAX to NYC? \ud83d\udeeb\ufe0f",
+                    "timestamp": 1729103171
+                },
+                {
+                    "role": "user",
+                    "content": "yes",
+                    "timestamp": 1729103191
+                },
+                {
+                    "role": "assistant",
+                    "content": "\ud83d\uddfa\ufe0f Let's plan your trip from LAX (Los Angeles International Airport) to NYC (New York City).\n\nTo get the best flight options, could you please tell me:\n\n1. What time of year are you planning to travel? \ud83c\udf1e\n2. How many passengers will be traveling? \ud83d\udc65\n3. Do you have a preferred airline or budget range? \ud83d\udcb8\n\nLet's get started! \ud83d\ude0a",
+                    "timestamp": 1729103193
+                },
+                {
+                    "role": "user",
+                    "content": "get me the flight times of from La LAX to NYC",
+                    "timestamp": 1729103236
+                },
+                {
+                    "role": "assistant",
+                    "content": "\ud83d\udeeb\ufe0f Flight Time Alert! \ud83d\udea8\n\nHere are some flight options from LAX (Los Angeles International Airport) to NYC:\n\n* **Departure:** 02:00 PM\n* **Arrival:** 10:30 PM\n* **Duration:** 10 hours and 30 minutes\n\nPlease note that these times are just examples, and actual flight schedules may vary. I recommend checking with airlines or online travel agencies for the most up-to-date and accurate information.\n\nWould you like me to help with booking a flight or providing more options? \ud83e\udd14",
+                    "timestamp": 1729103238
+                }
+            ]
+        }
+    }
+}

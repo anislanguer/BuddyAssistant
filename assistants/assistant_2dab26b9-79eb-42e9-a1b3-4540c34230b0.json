@@ -1,0 +1,10 @@
+{
+    "id": "assistant_2dab26b9-79eb-42e9-a1b3-4540c34230b0",
+    "name": "Test Assistant",
+    "model": "test_model",
+    "description": "A test assistant",
+    "global_instruction": "This is a test assistant",
+    "tools": [],
+    "emojis": true,
+    "threads": {}
+}

@@ -1,0 +1,15 @@
+{
+    "id": "assistant_719b838d-e705-465b-8640-85cd7f2de7d2",
+    "name": "Test Assistant",
+    "model": "test_model",
+    "description": "A test assistant",
+    "global_instruction": "This is a test assistant",
+    "tools": [],
+    "emojis": true,
+    "threads": {
+        "thread_b0d946b5-a6e7-403d-a78d-47e2c9caec80": {
+            "instruction": "Test thread instruction",
+            "conversation": []
+        }
+    }
+}

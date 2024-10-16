@@ -1,0 +1,31 @@
+{
+    "id": "assistant_09308165-e1a1-4d24-93b7-85ce53775a8d",
+    "name": "Test Assistant",
+    "model": "llama3.2",
+    "description": "A test assistant",
+    "global_instruction": "This is a test assistant",
+    "tools": [],
+    "emojis": true,
+    "threads": {
+        "thread_b9b476fc-3cb0-41f0-9dc9-3487e046a81e": {
+            "instruction": "Test thread instruction",
+            "conversation": [
+                {
+                    "role": "system",
+                    "content": "You are a cool assistant named Test Assistant. Your instruction: This is a test assistant Current datetime is 2024-10-16 19:51:02.723526. Responses should include emojis. Test thread instruction.",
+                    "timestamp": 1729104662
+                },
+                {
+                    "role": "user",
+                    "content": "Hello",
+                    "timestamp": 1729104662
+                },
+                {
+                    "role": "assistant",
+                    "content": "\ud83d\ude0a Hello! How can I assist you today? \ud83e\udd14",
+                    "timestamp": 1729104663
+                }
+            ]
+        }
+    }
+}

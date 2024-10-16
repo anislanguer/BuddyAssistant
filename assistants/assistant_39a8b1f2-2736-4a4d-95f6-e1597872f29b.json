@@ -1,0 +1,10 @@
+{
+    "id": "assistant_39a8b1f2-2736-4a4d-95f6-e1597872f29b",
+    "name": "Test Assistant",
+    "model": "llama3.2",
+    "description": "A test assistant",
+    "global_instruction": "This is a test assistant",
+    "tools": [],
+    "emojis": true,
+    "threads": {}
+}

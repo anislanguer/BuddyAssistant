@@ -1,0 +1,15 @@
+{
+    "id": "assistant_33a57b29-0277-45f4-a482-2e66a7321718",
+    "name": "Test Assistant",
+    "model": "llama3.2",
+    "description": "A test assistant",
+    "global_instruction": "This is a test assistant",
+    "tools": [],
+    "emojis": true,
+    "threads": {
+        "thread_9f2271f1-3fa0-4d5c-b627-01aaefaee275": {
+            "instruction": "Test thread instruction",
+            "conversation": []
+        }
+    }
+}
