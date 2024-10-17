@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='BuddyAssistant',               
-    version='0.1',                   
+    version='0.1.6',                   
     description='BuddyAssistant is a conversational AI assistant.',  
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
