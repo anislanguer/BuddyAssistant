@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch, MagicMock
-from BuddyAssistant import BuddyAssistant, Thread, Message  # Assuming your classes are in assistant.py
+from BuddyAssistant.BuddyAssistant import BuddyAssistant, Thread, Message  # Assuming your classes are in assistant.py
 
 class TestMessage(unittest.TestCase):
     def test_initialization(self):
