@@ -24,8 +24,7 @@ pip install -r requirements.txt
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/my-assistant.git
-    cd my-assistant
+    git clone https://github.com/yourusername/BuddyAssistant.git
     ```
 
 2. Install the required packages:
